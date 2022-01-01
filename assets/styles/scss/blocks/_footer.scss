@@ -1,12 +1,13 @@
 .footer {
     max-width: 1440px;
     padding: 0 0 0 8.75%;
-    margin: -100px auto 0;
-    position: relative;
+    bottom: 0px;
+    position: sticky;
 
     &__nav {
         display: flex;
         justify-content: flex-start;
+        background-color: white;
     }
 
     &__list {
@@ -19,6 +20,9 @@
 
     &__link {
         text-decoration: none;
-    }
 
+        &:hover {
+            color: $color-accent;
+        }
+    }
 }

@@ -18,6 +18,10 @@
         margin-bottom: 30px;
     }
 
+    &__image-container {
+        z-index: 1;
+    }
+
     &__image {
         max-width: 100%;
     }
