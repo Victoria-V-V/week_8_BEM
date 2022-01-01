@@ -1,0 +1,24 @@
+.firstpage {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 0 0 8.75%;
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        margin-bottom: 0px;
+    }
+
+    &__desc {
+        margin-bottom: 30px;
+    }
+
+    &__image {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,200 @@
+/* roboto-slab-300 - latin_cyrillic */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("/assets/fonts/roboto-slab-v16-latin_cyrillic-300.woff2") format("woff2"), url("/assets/fonts/roboto-slab-v16-latin_cyrillic-300.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-slab-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("/assets/fonts/roboto-slab-v16-latin_cyrillic-regular.woff2") format("woff2"), url("/assets/fonts/roboto-slab-v16-latin_cyrillic-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-slab-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("/assets/fonts/roboto-slab-v16-latin_cyrillic-700.woff2") format("woff2"), url("/assets/fonts/roboto-slab-v16-latin_cyrillic-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+h1 {
+  font-family: "Roboto Slab", Arial, serif;
+  font-size: 3.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+  line-height: 120%;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 2.375rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+}
+
+.desc {
+  font-family: "Roboto Slab", Arial, serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #000000;
+  line-height: 160%;
+}
+
+@media (max-width: 992px) {
+  .desc {
+    font-size: 1.375rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .desc {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .desc {
+    font-size: 0.75rem;
+  }
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 100px;
+  width: 135px;
+  font-family: "Roboto Slab", Arial, serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #5222D0;
+}
+
+.button_with-icon {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 115px;
+  padding: 10px 0px;
+}
+
+.button_with-icon-big {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 270px;
+  padding: 20px 0px;
+  font-size: 2rem;
+}
+
+.header {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 5.5vh 5% 0 5%;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.firstpage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 0 0 8.75%;
+}
+
+.firstpage__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.firstpage__title {
+  margin-bottom: 0px;
+}
+
+.firstpage__desc {
+  margin-bottom: 30px;
+}
+
+.firstpage__image {
+  max-width: 100%;
+}
+
+.footer {
+  max-width: 1440px;
+  padding: 0 0 0 8.75%;
+  margin: -100px auto 0;
+  position: relative;
+}
+
+.footer__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.footer__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  -webkit-column-gap: 2%;
+          column-gap: 2%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.footer__link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
