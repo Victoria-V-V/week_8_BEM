@@ -1,21 +1,26 @@
 .footer {
+    position: sticky;
+    bottom: 0px;
     max-width: 1440px;
     padding: 0 0 0 8.75%;
-    bottom: 0px;
-    position: sticky;
 
     &__nav {
         display: flex;
         justify-content: flex-start;
         background-color: white;
+
     }
 
     &__list {
-        list-style: none;
         display: flex;
-        padding-left: 0;
         column-gap: 2%;
         flex-grow: 1;
+        padding-left: 0;
+        list-style: none;
+
+        @media (max-width: 315px) {
+            flex-direction: column;
+        }
     }
 
     &__link {

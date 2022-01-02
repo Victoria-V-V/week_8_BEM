@@ -2,10 +2,14 @@
 h1 {
     font-family: $font-family-default;
     font-size: 3.75rem;
+    line-height: 120%;
     font-weight: $font-bold;
     text-transform: uppercase;
     color: $color-main;
-    line-height: 120%;
+
+    @media (max-width: breakpoint-var(xxl)) {
+        font-size: 3.5rem;
+    }
 
     @media (max-width: breakpoint-var(lg)) {
         font-size: 2.375rem;
@@ -16,16 +20,16 @@ h1 {
     }
 
     @media (max-width: breakpoint-var(sm)) {
-        font-size: 1.75rem;
+        font-size: 1.1rem;
     }
 }
 
 h2 {
     font-family: $font-family-default;
     font-size: 1.875rem;
+    line-height: 120%;
     font-weight: $font-bold;
     color: $color-main;
-    line-height: 120%;
 
     @media (max-width: breakpoint-var(lg)) {
         font-size: 1.375rem;
@@ -40,13 +44,12 @@ h2 {
     }
 }
 
-
 .desc {
     font-family: $font-family-default;
     font-size: 1.25rem;
+    line-height: 160%;
     font-weight: $font-normal;
     color: $color-main;
-    line-height: 160%;
 
     @media (max-width: breakpoint-var(lg)) {
         font-size: 1.375rem;
@@ -65,15 +68,15 @@ h2 {
 //buttons
 .button {
     @include flexible ();
-    border-radius: 100px;
     width: 135px;
+    padding: 10px 0px;
     font-family: $font-family-default;
     font-size: 0.8125rem;
     font-weight: $font-bold;
     text-decoration: none;
     color: $color-light;
     background-color: $color-accent;
-    padding: 10px 0px;
+    border-radius: 100px;
 
     &:hover {
         background-color: $color-secondary;
@@ -89,6 +92,18 @@ h2 {
         width: 270px;
         padding: 20px 0px;
         font-size: 2rem;
+
+        @media (max-width: breakpoint-var(sm)) {
+            img {
+                max-width: 20%;
+            }
+
+            justify-content: space-around;
+            width: 115px;
+            padding: 10px 0px;
+            font-size: 0.8125rem;
+        }
+
     }
 
     &__subscribe {

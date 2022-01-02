@@ -7,6 +7,10 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 5%;
+
+        @media (max-width: breakpoint-var(sm)) {
+            grid-template-columns: 1fr;
+        }
     }
 
     &__image {

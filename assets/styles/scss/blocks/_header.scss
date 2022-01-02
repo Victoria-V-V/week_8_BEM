@@ -8,4 +8,11 @@
         justify-content: space-between;
         align-items: center;
     }
+
+    &__logo-img {
+        @media (max-width: breakpoint-var(sm)) {
+            width: 80%;
+        }
+    }
+
 }

@@ -20,6 +20,11 @@
 
     &__image-container {
         z-index: 1;
+
+        @media (max-width: breakpoint-var(xsm)) {
+            display: none;
+        }
+
     }
 
     &__image {
